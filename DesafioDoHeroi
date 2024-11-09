@@ -1,0 +1,19 @@
+Nome= input("Digite o nome do herói:")
+XP = int(input("Digite a pontuação do herói"))
+
+if XP <= 1000:
+    print("O Herói de nome" + Nome + "está no nível Ferro")
+elif XP < 2000:
+    print("O Herói de nome" + Nome + "está no nível Bronze")
+elif XP < 5000:
+    print("O Herói de nome" + Nome + "está no nível Prata")
+elif XP < 7000:
+    print("O Herói de nome" + Nome + "está no nível Ouro")
+elif XP <10000:
+    print("O Herói de nome" + Nome + "está no nível Imortal")
+elif XP < 8000:
+    print("O Herói de nome" + Nome + "está no nível Platina")
+elif XP < 9000:
+    print("O Herói de nome" + Nome + "está no nível Ascendente")
+elif XP > 10.001:
+    print("O Herói de nome" + Nome + "está no nível Radiante")
